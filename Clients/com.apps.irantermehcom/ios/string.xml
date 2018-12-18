@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_secret">-</string>
+	<string name="client_id">-</string>
+	
+	<string name="default_language">fa</string>
+	<string name="default_currency">TOM</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">+989128503966</string>
+	<string name="shop_phone">+982155622456</string>
+	<string name="shop_emails">irantermeh@gmail.com</string>
+		
+	<string name="app_title">خانه ترمه ایران</string>
+	<string name="shop_details">برترین برند دکوراسیون سنتی ایران</string>
+	<string name="url">http://www.irantermeh.com</string>
+	
+	<string name="theme_header">#119690</string>
+	<string name="theme_bg">#0e706a</string>
+	<string name="textbox_color">#383838</string>
+	<string name="theme_footer">#a2a2a2</string>
+	
+	<string name="button_active_color">#e2ad3f</string>
+	<string name="button_hover_color">#000000</string>
+	
+	<string name="toastshow_color">#e4186a</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#3eaf44</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#000000</string>
+	<string name="menubar_header">#000000</string>
+	<string name="menubar_textcolor">#000000</string>
+	<string name="menubar_logo_color">#000000</string>
+	<string name="category_button">#000000</string>
+	
+	<string name="scheme">Iran Termeh Home</string>
+	
+	<string name="push_device_key">gOdumQCMIOQ=</string>
+	<string name="push_board_url">app/push/server.php</string>
+	<string name="push_sender_id">e/I66wcFLGiFuyNSkwH1Jg==</string>
+	<string name="push_channel">ES2NcfJJh9w=</string>
+	<string name="need_to_login_site">0</string>
+	<string name="is_https">0</string>
+	
+</resources>

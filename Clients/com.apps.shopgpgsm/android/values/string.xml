@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_secret">UQ4B39qHpGE/9F4Kz7VtxpBvGODymHp/BEFHdhmXB7ZBs1/R2H/Sy3OysygQNgAeQZxR0SoTYeo=</string>
+	<string name="client_id">n7DUclgfexQQ3LR5xEzGuYXk2Fx9LXyzvaeAjGAs9/H4FwmIPPSzOQ==</string>
+	
+	<string name="default_language">fa</string>
+	<string name="default_currency">TOM</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">09138162117</string>
+	<string name="shop_phone">021-66758567-66712407-66756623</string>
+	<string name="shop_emails">info@gpgsm.ir</string>
+		
+	<string name="app_title">پخش جرمن پارت</string>
+	<string name="shop_details">پخش قطعات اورجینال موبایل</string>
+	<string name="url">https://shop.gpgsm.ir</string>
+	
+	<string name="theme_header">#ff5353</string>
+	<string name="theme_bg">#eeeff1</string>
+	<string name="textbox_color">#000000</string>
+	<string name="theme_footer">#a2a2a2</string>
+	
+	<string name="button_active_color">#4bb050</string>
+	<string name="button_hover_color">#3f9841</string>
+	
+	<string name="toastshow_color">#e4186a</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#3eaf44</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#ffffff</string>
+	<string name="menubar_header">#fbfafa</string>
+	<string name="menubar_textcolor">#272727</string>
+	<string name="menubar_logo_color">#188de4</string>
+	<string name="category_button">#3eaf44</string>
+	
+	<string name="scheme">shop</string>
+	
+	<string name="push_device_key">gOdumQCMIOQ=</string>
+	<string name="push_board_url">app/push/server.php</string>
+	<string name="push_sender_id">e/I66wcFLGiFuyNSkwH1Jg==</string>
+	<string name="push_channel">ES2NcfJJh9w=</string>
+	<string name="need_to_login_site">0</string>
+	<string name="is_https">1</string>
+	
+</resources>

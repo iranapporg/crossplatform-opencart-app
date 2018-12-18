@@ -1,0 +1,88 @@
+﻿Version=5.82
+AppType=JavaFX
+NumberOfModules=0
+Build1=Default,b4j.example
+NumberOfFiles=1
+File1=frm1.bjl
+NumberOfLibraries=5
+Library1=jcore
+Library2=jfx
+Library3=jstringutils
+Library4=byteconverter
+Library5=b4xencryption
+@EndOfDesignText@
+#Region  Project Attributes 
+	#MainFormWidth: 334
+	#MainFormHeight: 410
+	 #AdditionalJar: bcprov-jdk15on-150
+#End Region
+
+Sub Process_Globals
+	Private fx As JFX
+	Private MainForm As Form
+	Private txtval As TextField
+	Private r1 As RadioButton
+	Private r2 As RadioButton
+	Private txtoutput As TextArea
+	Private btndo As Button
+	Private txtpass As TextField
+End Sub
+
+Sub AppStart (Form1 As Form, Args() As String)
+	
+	MainForm = Form1
+	MainForm.SetFormStyle("UNIFIED")
+	MainForm.RootPane.LoadLayout("frm1") 'Load the layout file.
+	MainForm.Show
+	MainForm.Resizable = False
+
+End Sub
+
+Sub btndo_Action
+	
+	If r1.Selected = True Then
+		txtoutput.Text = Encrypt(txtval.Text,txtpass.Text)
+	Else
+		txtoutput.Text = Decrypt(txtval.Text,txtpass.Text)
+	End If
+	
+End Sub
+
+Sub r1_SelectedChange(Selected As Boolean)
+	
+	If Selected Then
+		r2.Selected = False
+		txtoutput.Text = ""
+		btndo.Text = "Encryption"
+	End If
+	
+End Sub
+
+Sub r2_SelectedChange(Selected As Boolean)
+	
+	If Selected Then
+		r1.Selected = False
+		btndo.Text = "Decryption"
+		txtoutput.Text = ""
+	End If
+	
+End Sub
+
+Sub Encrypt(text As String,Password As String) As String
+  
+	Dim c As B4XCipher
+	Dim su As StringUtils
+	Dim b() As Byte
+	b = c.Encrypt(text.GetBytes("utf8"), Password)
+	Return su.EncodeBase64(b)
+	
+End Sub
+
+Sub Decrypt(Text As String,Password As String) As String
+
+   Dim c As B4XCipher
+   Dim su As StringUtils
+   Dim b() As Byte = c.Decrypt(su.DecodeBase64(Text), Password)
+   Return BytesToString(b, 0, b.Length, "utf8")
+	
+End Sub

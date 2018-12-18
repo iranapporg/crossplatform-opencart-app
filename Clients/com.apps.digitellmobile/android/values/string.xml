@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="client_id">8UqJ3PpcWlXTxPNQUZcSRjSVi4unO/LdwLHvQW7tugfSXHD/k1LhB6En5Pr/+/LY8nBA4+QWXGM=</string>
+	<string name="client_secret">3N6Pp0Ki3oEiGc64eUXby4/dTTMal0r81TZSly+gqfqFekZlKA9L4g==</string>
+	
+	<string name="default_language">fa</string>
+	<string name="default_currency">TOM</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">10009338689008</string>
+	<string name="shop_phone">03132258000</string>
+	<string name="shop_emails">parshamrahmobile@gmail.com</string>
+		
+	<string name="app_title">دیجی تل</string>
+	<string name="shop_details">فروشگاه اینترنتی موبایل،تبلت و لوازم جانبی</string>
+	<string name="url">https://digitellmobile.com</string>
+	
+	<string name="theme_header">#26a3cf</string>
+	<string name="theme_bg">#f1f0f6</string>
+	<string name="textbox_color">#FAFAFA</string>
+	<string name="theme_footer">#a2a2a2</string>
+	
+	<string name="button_active_color">#26a3cf</string>
+	<string name="button_hover_color">#2380a1</string>
+	
+	<string name="toastshow_color">#e4186a</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#3eaf44</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#ffffff</string>
+	<string name="menubar_header">#fbfafa</string>
+	<string name="menubar_textcolor">#272727</string>
+	<string name="menubar_logo_color">#188de4</string>
+	<string name="category_button">#3eaf44</string>
+	
+	<string name="scheme">digitellmobile</string>
+	
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="client_id">nMW6mcAH4ZtArcQYByePCJKMi31DiaF0LKDuqHGdR8kWl4KyyrxWqA==</string>
+	<string name="client_secret">ScizXzuPyI9nKMioQFybiUeAhml267BGD118WBwA6IFyzIeXrwmAAA==</string>
+	
+	<string name="default_language">fa</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">09122067854</string>
+	<string name="shop_phone">02166124008</string>
+	<string name="shop_emails">info@opencart.ir</string>
+		
+	<string name="app_title">دموی اپن کارت</string>
+	<string name="shop_details">ایده جدید در فروش محصولات</string>
+	<string name="url">http://api.kharidaram.com</string>
+	
+	<string name="theme_header">#26a3cf</string>
+	<string name="theme_bg">#f1f0f6</string>
+	<string name="textbox_color">#FAFAFA</string>
+	<string name="theme_footer">#a2a2a2</string>
+	
+	<string name="button_active_color">#26a3cf</string>
+	<string name="button_hover_color">#2380a1</string>
+	
+	<string name="toastshow_color">#e4186a</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#3eaf44</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#ffffff</string>
+	<string name="menubar_header">#fbfafa</string>
+	<string name="menubar_textcolor">#272727</string>
+	<string name="menubar_logo_color">#188de4</string>
+	<string name="category_button">#3eaf44</string>
+	
+	<string name="scheme">demo</string>
+	
+</resources>

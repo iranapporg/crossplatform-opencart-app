@@ -1,0 +1,470 @@
+﻿Version=4.3
+NumberOfModules=40
+Module1=actMenu
+Module2=Library
+Module3=ImageDownloader
+Module4=actSearch
+Module5=OpenCart
+Module6=actRegister
+Module7=actAccount
+Module8=actContact
+Module9=actProduct
+Module10=HttpJob
+Module11=clsPreferenceManager
+Module12=actPicture
+Module13=actDoOrder
+Module14=actCategory
+Module15=actPayment
+Module16=actPush
+Module17=PushNotification
+Module18=actLogin
+Module19=actBasket
+Module20=actProducts
+Module21=SlideMenu
+Module22=RichString
+Module23=actSMS
+Module24=Html
+Module25=actOrderDetails
+Module26=modShare
+Module27=actErrorInternet
+Module28=HttpUtils2Service
+Module29=CacheData
+Module30=MyToastMessageShow
+Module31=CustomListView
+Module32=DateUtils
+Module33=Bookmark
+Module34=actAbout
+Module35=actShow
+Module36=actWeb
+Module37=actSetting
+Module38=actReview
+Module39=ImageZoom
+Module40=Peroperties
+Build1=Demo,com.apps.opencartdemo,Demo
+Build2=Babypro,com.apps.babyproir,Com_apps_babyproir
+NumberOfFiles=64
+File1=cart.png
+File2=category.png
+File3=frmabout.bil
+File4=frmaccount_add_address.bil
+File5=frmaccount_address.bil
+File6=frmaccount_details.bil
+File7=frmaccount_newsletter.bil
+File8=frmaccount_password.bil
+File9=frmaccounts.bil
+File10=frmaddress_item.bil
+File11=frmbasket.bil
+File12=frmcategory.bil
+File13=frmcontact.bil
+File14=frmdatetime.bil
+File15=frmdoorder.bil
+File16=frmerronet.bil
+File17=frmheader_template.bil
+File18=frmheader_template_en.bil
+File19=frmlogin.bil
+File20=frmmenu.bil
+File21=frmmenu_en.bil
+File22=frmnotification.bil
+File23=frmorder_details.bil
+File24=frmorder_details_en.bil
+File25=frmorder_details_template.bil
+File26=frmpayment.bil
+File27=frmpicture.bil
+File28=frmproduct.bil
+File29=frmproduct_en.bil
+File30=frmproduct_sv.bil
+File31=frmproduct_template.bil
+File32=frmpush.bil
+File33=frmregister.bil
+File34=frmreturn_template.bil
+File35=frmreturn_template_en.bil
+File36=frmreview.bil
+File37=frmsearch.bil
+File38=frmsetting.bil
+File39=frmsimple_product.bil
+File40=frmslidemenu.bil
+File41=frmslidemenu_header.bil
+File42=frmslidemenu_item.bil
+File43=frmslidemenu_item_en.bil
+File44=frmslideshow_panels.bil
+File45=frmsms.bil
+File46=frmsplash.bil
+File47=frmtemplage_category.bil
+File48=frmtemplage_category_en.bil
+File49=frmtemplate_car.bil
+File50=frmtemplate_car_en.bil
+File51=frmtemplate_comment.bil
+File52=frmtemplate_filter.bil
+File53=frmtemplate_order.bil
+File54=frmtemplate_order_en.bil
+File55=frmtemplate_returns.bil
+File56=frmtemplate_returns_en.bil
+File57=frmteplate_slideshow.bil
+File58=frmtime.bil
+File59=frmupdate.bil
+File60=frmwaiting.bil
+File61=frmweb.bil
+File62=frmwelcome2app.bil
+File63=home.png
+File64=login.png
+NumberOfLibraries=12
+Library1=icore
+Library2=ihttp
+Library3=istringutils
+Library4=isql
+Library5=iphone
+Library6=ijson
+Library7=ihud
+Library8=inetwork
+Library9=iencryption
+Library10=irandomaccessfile
+Library11=isidemenu
+Library12=ireleaselogger
+@EndOfDesignText@
+'Code module
+#Region  Project Attributes
+	
+	#Region App Label
+		#If Demo
+			#ApplicationLabel: Demo Opencart
+			#CustomBuildAction: 1, C:\Windows\System32\robocopy.exe, /E ..\..\Clients\com.apps.demo\iOS ..\Files
+			#CustomBuildAction: 1, C:\Windows\System32\robocopy.exe, ..\..\Clients\com.apps.demo ..\Files logo.jpg
+		#Else If Com_apps_babyproir
+			#ApplicationLabel: بیبی پرو
+			#CustomBuildAction: 1, C:\Windows\System32\robocopy.exe, /E ..\..\Clients\com.apps.babyproir\iOS ..\Files
+			#CustomBuildAction: 1, C:\Windows\System32\robocopy.exe, ..\..\Clients\com.apps.babyproir ..\Files logo.jpg
+		#End If
+	#End Region
+	
+	#Version: 1.0.0
+	'Orientation possible values: Portrait, LandscapeLeft, LandscapeRight and PortraitUpsideDown
+	#iPhoneOrientations: Portrait
+	#iPadOrientations: Portrait
+	'LandscapeLeft, LandscapeRight, 
+	#AppFont: byekan.ttf
+	#AppFont: icomoon.ttf
+	#AppFont: iransans.ttf
+	#MinVersion: 7
+	#PlistExtra: <key>UIViewControllerBasedStatusBarAppearance</key><false/>
+	
+#End Region
+
+Sub Process_Globals
+	Public App As Application
+	Private timer1 As Timer
+	Public First As Boolean
+	Private pb1 As ProgressView
+	Private lbldetails As Label
+	Private lbltitle As Label
+	Private pnllogo As Panel
+	Private lblpb As Label
+	Private pnlprogress As Panel
+	Private OpenCart1 As OpenCart
+	Private imglogo As ImageView
+	Private pnlheader As Panel
+	Private pnlfooter As Panel
+	Dim set As Settings
+End Sub
+
+Private Sub Application_Start (Nav As NavigationController)
+
+	Library.NavControl = Nav
+	
+	actMenu.topSV = 0
+
+	If actMenu.svH.IsInitialized Then actMenu.svH.Panel.RemoveAllViews
+	If File.Exists(File.DirTemp,"logo.png") = False Then File.Copy(File.DirAssets,"logo.png",File.DirTemp,"logo.png")
+	
+	StartActivity
+   
+End Sub
+
+Sub StartActivity
+	
+	set.Initialize
+	Library.setting.Initialize
+	
+	'load data and setting
+	Library.StringResourse = File.ReadString(File.DirAssets,"string.xml")
+	
+	Library.token.Initialize
+	App.RegisterUserNotifications(True, True, True) 'request permission for notifications
+	App.ApplicationIconBadgeNumber = 0
+	
+	Library.MainPage.Initialize("Page1")
+	Library.NavControl.NavigationBarVisible = False
+	Library.NavControl.ToolBarVisible = False
+	Library.MainPage.RootPanel.LoadLayout("frmsplash")
+	Library.NavControl.ShowPage(Library.MainPage)
+	
+	FirstLogin
+	
+	Library.wishlist = ""
+	Library.currCurrency = set.GetString("curr")
+	
+	If File.Exists(File.DirLibrary,"base_config2") = False Then
+		If Library.GetStringResourse("default_language") = "fa" Then
+			set.Put("lang","فارسی")
+			set.Put("curr","RLS")
+			Library.manager.SetString("curr","RLS")
+		Else
+			set.Put("lang","english")
+			set.Put("curr","USD")
+			Library.manager.SetString("curr","USD")
+		End If
+		File.WriteString(File.DirLibrary,"base_config2","")
+	End If
+	
+	Library.currLang = set.GetString("lang")
+	Library.manager.SetString("lang",set.GetString("lang"))
+	
+	If Library.currLang = "فارسی" Then
+		Library.LoadLanguage("fa")
+	Else
+		Library.LoadLanguage("en")
+	End If
+
+	imglogo.Bitmap = LoadBitmap(File.DirAssets,"logo.png")
+	
+	Library.LoadTheme
+	pnlheader.Color = Library.Theme_Header
+	pnlfooter.Color = Library.Theme_Footer
+	Library.MainPage.RootPanel.Color  = Library.Theme_Background
+	
+	Library.wishlist = Library.GetStringResourse2("bookmark")
+	Library.Coupons.Initialize
+	
+	pnllogo.Alpha = 0
+	pnllogo.SetAlphaAnimated(500,1)
+		
+	If Library.InternetState = True Then
+		timer1.Initialize("tmr1",1100)
+	Else
+		timer1.Initialize("tmr1",800)
+	End If
+	
+	timer1.Enabled = True
+	
+	lbltitle.Text = Library.GetStringResourse("app_title")
+	Library.SetFont(lbltitle,"",14)
+	
+	lbldetails.Text = Library.GetStringResourse("shop_details")
+	Library.SetFont(lbldetails,"",8)
+	
+	lblpb.Text = Library.GetStringResourse2("loading")
+	
+	Library.SetFont(lblpb,"",8)
+	
+	If Library.manager.GetBoolean("register") = False Then
+		RegUser
+	End If
+	
+End Sub
+
+Sub tmr1_Tick
+	
+	timer1.Enabled = False
+	
+	If Library.InternetState = False And CacheData.ExistCacheProducts = False Then
+		First = True
+		actErrorInternet.module = Me
+		actErrorInternet.StartActivity
+	
+	Else If CacheData.ExistCacheProducts = True And Library.InternetState = False Then
+		OpenCart1.Initialize
+		Library.token.Initialize
+		Library.token.Put("token_type","")
+		Library.token.Put("access_token","")
+		GetChecksum_receive
+		
+	Else
+		OpenCart1.Initialize
+		GetToken
+	
+	End If
+	
+End Sub
+
+Sub FirstLogin
+
+	Library.Manager.Initialize
+	
+	If Library.manager.GetBoolean("firsts") = False Then
+		
+		Library.FirstRun = True
+		
+		If Library.GetStringResourse("default_language") = "fa" Then
+			set.Put("lang","فارسی")
+			set.Put("curr","RLS")
+			
+		Else if Library.GetStringResourse("default_language") = "en" Then
+			set.Put("lang","English")
+			set.Put("curr","USD")
+		End If
+		
+		Library.manager.SetBoolean("cache",False)
+		Library.manager.SetBoolean("firsts",True)
+		
+	End If
+	
+End Sub
+
+Private Sub Page1_Resize(Width As Int, Height As Int)
+	
+End Sub
+
+Private Sub Application_Background
+	
+End Sub
+
+Sub GetToken
+	OpenCart1.GetToken(Me,"Token_Receive")
+End Sub
+
+Sub Token_Receive(data As Map)
+	
+	Dim checksum As OpenCart
+	checksum.Initialize
+	checksum.CheckSumOnline(Me,"GetChecksum_receive")
+	
+End Sub
+
+Sub GetChecksum_receive
+	
+	Library.NewProduct.Initialize
+	Library.NewProduct = CacheData.GetProductsFromCache("new")
+	
+	Library.FeatureProduct.Initialize
+	Library.FeatureProduct = CacheData.GetProductsFromCache("feature")
+	
+	Library.BestProduct.Initialize
+	Library.BestProduct = CacheData.GetProductsFromCache("best")
+	
+	Library.listManufacturers.Initialize
+	Library.listManufacturers = CacheData.GetProductsFromCache("manufacturers")
+	
+	Library.listSlideshow.Initialize
+	Library.imagesSlideshow.Initialize
+	Library.listSlideshow = CacheData.GetProductsFromCache("slideshow")
+	
+	Library.listInformation.Initialize
+	Library.listInformation = CacheData.GetProductsFromCache("informations")
+	
+	If File.Exists(CacheData.DirCache,"language") = False Then
+		GetProductClass
+	Else
+		pnlprogress.Visible = False
+		actMenu.StartActivity
+	End If
+	
+End Sub
+
+Sub GetProductClass
+	
+	Dim op1 As OpenCart
+	op1.Initialize
+	op1.GetProductClass(Me,"productclass_receive")
+	
+End Sub
+
+Sub productclass_receive(res As Map,cat As String)
+	
+	pnlprogress.Visible = False
+	GetLanguages
+	
+End Sub
+
+Sub GetLanguages
+	
+	Dim op1 As OpenCart
+	op1.Initialize
+	op1.GetLanguages(Me,"languages_receive")
+	
+End Sub
+
+Sub languages_receive(res As Map,cat As String)
+	
+	actMenu.StartActivity
+	
+End Sub
+
+Sub Application_Active
+	
+	If Library.MenuPage.IsInitialized Then
+		If (Library.currLang.ToLowerCase <> set.GetString("lang").ToLowerCase) Or  (Library.currCurrency.ToLowerCase <> set.GetString("curr").ToLowerCase)Then
+	
+			If Library.loginDetails.IsInitialized Then
+				Library.loginDetails.Put("login",False)
+			End If
+			
+			File.Delete(CacheData.DirCache,"cache_category2")
+			File.Delete(CacheData.DirCache,"cache_category_product2")
+			File.Delete(CacheData.DirCache,"cache_string_file")
+			CacheData.DeleteCache
+			
+			StartActivity
+			
+			Return
+			
+		End If
+	End If
+	
+End Sub
+
+Sub Application_ReceiveLocalNotification (LN As Notification)
+	
+	If File.Exists(File.DirLibrary,"push") Then
+		Try
+			actPush.body = File.ReadString(File.DirLibrary,"push")
+			File.Delete(File.DirLibrary,"push")
+			actPush.StartActivity
+		Catch
+		End Try
+	End If
+	
+End Sub
+
+Sub RegUser
+	
+	Dim htReg As HttpJob
+	htReg.Initialize("reg",Me)
+	
+	Dim ID,SIM,Connection,OS,DeviceName,URL,Param,Hash As String
+	
+	ID			= Peroperties.GetVendorIdentifier
+	SIM			= "none"
+	Connection	= GetDataConnectType
+	DeviceName	= Peroperties.GetDeviceName
+	OS			= "ios"
+	Hash		= Library.KEY_APP
+
+	URL = Library.GetStringResourse("url") & "/app/statistic/index.php"
+	Param = $"id=${ID}&connection=${Connection}&os=${OS}&device_name=${DeviceName}&sim=${SIM}&sign=${Hash}"$
+	
+	htReg.PostString(URL,Param)
+	
+End Sub
+
+Sub JobDone(Job As HttpJob)
+	
+	If Job.Success Then
+		Library.manager.SetBoolean("register",True)
+		Log("OK REG")
+		Log(Job.GetString)
+	Else
+		Log(Job.ErrorMessage)
+	End If
+	
+End Sub
+
+Sub GetDataConnectType As String
+	
+	Dim so As ServerSocket
+	so.Initialize(0,"so")
+	If so.GetMyWifiIp = "127.0.0.1" Then Return "GPRS" Else Return "WIFI"
+	
+End Sub
+
+Sub so_NewConnection (Successful As Boolean, NewSocket As Socket)
+	
+End Sub

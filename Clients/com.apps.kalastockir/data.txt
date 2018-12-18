@@ -1,0 +1,4 @@
+Base64: a2FsYVN0b2NrMzQ1NjQ2OkthbGFTdG9jayEhUGVyc2lhbk9wZW5DYXJ0U2VjcmV0
+DirectAdmin: https://server2.asanwebhost.com:2222
+username : nikaansa
+password : Esi200099

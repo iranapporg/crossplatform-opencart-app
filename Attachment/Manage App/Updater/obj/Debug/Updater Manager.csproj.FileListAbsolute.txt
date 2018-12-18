@@ -1,0 +1,8 @@
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Manage App\Updater\bin\Debug\oua.exe
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Manage App\Updater\bin\Debug\oua.pdb
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Manage App\Updater\obj\Debug\ResolveAssemblyReference.cache
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Manage App\Updater\obj\Debug\Online_Update_App.Form1.resources
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Manage App\Updater\obj\Debug\Online_Update_App.Properties.Resources.resources
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Manage App\Updater\obj\Debug\Updater Manager.csproj.GenerateResource.Cache
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Manage App\Updater\obj\Debug\oua.exe
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Manage App\Updater\obj\Debug\oua.pdb

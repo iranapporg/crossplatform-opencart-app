@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_secret">P5Q9OHuPTF7orbofDmZMbQc6vBdPCHcYSxgripvTOq0v1v8eYQA20VasuOLRgqqhOV12ZJ+f+jslobdMyUkJFneHPk7ZxmTy</string>
+	<string name="client_id">l22uho7VHMMlV/q8dRq+Y4mkfFuaBroN1Ns39aCWbky8Do4HFRmQSA==</string>
+	
+	<string name="default_language">fa</string>
+	<string name="default_currency">TOM</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms"></string>
+	<string name="shop_phone">021-66128486</string>
+	<string name="shop_emails">shop@kalastock.ir</string>
+		
+	<string name="app_title">نیکان کالا استوک</string>
+	<string name="shop_details">بورس تجهیزات صنعتی موجود</string>
+	<string name="url">http://kalastock.ir</string>
+	
+	<string name="theme_header">#753cc4</string>
+	<string name="theme_bg">#f7f7f7</string>
+	<string name="textbox_color">#000000</string>
+	<string name="theme_footer">#a2a2a2</string>
+	
+	<string name="button_active_color">#753cc4</string>
+	<string name="button_hover_color">#4e1997</string>
+	
+	<string name="toastshow_color">#e4186a</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#3eaf44</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#ffffff</string>
+	<string name="menubar_header">#fbfafa</string>
+	<string name="menubar_textcolor">#272727</string>
+	<string name="menubar_logo_color">#188de4</string>
+	<string name="category_button">#5012a6</string>
+	
+	<string name="scheme">Nikan Kala Stock</string>
+	
+	<string name="push_device_key">gOdumQCMIOQ=</string>
+	<string name="push_board_url">app/push/server.php</string>
+	<string name="push_sender_id">e/I66wcFLGiFuyNSkwH1Jg==</string>
+	<string name="push_channel">ES2NcfJJh9w=</string>
+	<string name="need_to_login_site">1</string>
+	<string name="is_https">0</string>
+	
+</resources>

@@ -1,0 +1,5 @@
+Base64: RWJhZ2g6RWJhZ2gxMjNBQUE=
+
+Directadmin : https://server2.asanwebhost.com:2222/CMD_LOGIN
+Username : ebaghcom
+Password : mehdi5692mehdi

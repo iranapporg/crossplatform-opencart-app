@@ -1,0 +1,196 @@
+{
+  "project_info": {
+    "project_number": "805572620195",
+    "firebase_url": "https://opencart-145611.firebaseio.com",
+    "project_id": "opencart-145611",
+    "storage_bucket": "opencart-145611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805572620195:android:fe20010f3ca0f9f4",
+        "android_client_info": {
+          "package_name": "com.apps.babyproir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805572620195-turllbf6ojcsb0q06p5ll0jgsod6dq3c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-gi1071kap2ofrsln11mps0cdmloga2rh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-ahq8hjihdf3828ehcq2g0nt5ugun27qd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-169sofvmrahfaana1vfccrcsnjcs4gv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC53QsckVJSNtB83N1LnlMTXrCUgjRXQvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805572620195:android:1225672971f37a88",
+        "android_client_info": {
+          "package_name": "com.apps.ebagh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805572620195-turllbf6ojcsb0q06p5ll0jgsod6dq3c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-gi1071kap2ofrsln11mps0cdmloga2rh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-ahq8hjihdf3828ehcq2g0nt5ugun27qd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-169sofvmrahfaana1vfccrcsnjcs4gv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC53QsckVJSNtB83N1LnlMTXrCUgjRXQvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805572620195:android:035fbbe6afa54950",
+        "android_client_info": {
+          "package_name": "com.apps.opencart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805572620195-turllbf6ojcsb0q06p5ll0jgsod6dq3c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-gi1071kap2ofrsln11mps0cdmloga2rh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-ahq8hjihdf3828ehcq2g0nt5ugun27qd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-169sofvmrahfaana1vfccrcsnjcs4gv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC53QsckVJSNtB83N1LnlMTXrCUgjRXQvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805572620195:android:d2e69e9c40f8db02",
+        "android_client_info": {
+          "package_name": "com.apps.manageropencart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805572620195-jik43tn8put6n4npjen7rnvrbjsq1lfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.manageropencart",
+            "certificate_hash": "391e6cc85559b93587b98095f497f879c62a8512"
+          }
+        },
+        {
+          "client_id": "805572620195-turllbf6ojcsb0q06p5ll0jgsod6dq3c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-gi1071kap2ofrsln11mps0cdmloga2rh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-ahq8hjihdf3828ehcq2g0nt5ugun27qd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805572620195-169sofvmrahfaana1vfccrcsnjcs4gv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC53QsckVJSNtB83N1LnlMTXrCUgjRXQvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805572620195-turllbf6ojcsb0q06p5ll0jgsod6dq3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

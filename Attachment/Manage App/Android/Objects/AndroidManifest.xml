@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.apps.manageropencart"
+	android:versionCode="2"
+	android:versionName="1.5.0"
+	android:installLocation="internalOnly">
+	
+	<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="19"/>
+	<supports-screens android:largeScreens="true" 
+	    android:normalScreens="true" 
+	    android:smallScreens="true" 
+	    android:anyDensity="true"/>
+	<permission android:name="com.apps.manageropencart.permission.C2D_MESSAGE"
+	  android:protectionLevel="signature" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+	<uses-permission android:name="com.apps.manageropencart.permission.C2D_MESSAGE"/>
+	<application
+		android:icon="@drawable/icon"
+		android:label="Manager App"
+		android:theme="@style/_Opencart">
+		
+		<activity android:name="com.google.android.gms.common.api.GoogleApiActivity"
+		  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		  android:exported="false"/>
+		    <meta-data
+		  android:name="com.google.android.gms.version"
+		  android:value="@integer/google_play_services_version" />
+		<receiver
+		  android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+		  android:enabled="true">
+		  <intent-filter>
+		  <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+		  </intent-filter>
+		  </receiver>
+		
+		  <service
+		  android:name="com.google.android.gms.measurement.AppMeasurementService"
+		  android:enabled="true"
+		  android:exported="false"/>
+		   <provider
+		  android:authorities="com.apps.manageropencart.firebaseinitprovider"
+		  android:name="com.google.firebase.provider.FirebaseInitProvider"
+		  android:exported="false"
+		  android:initOrder="100" />
+		    <receiver
+		  android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+		  android:enabled="true">
+		  <intent-filter>
+		  <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+		  </intent-filter>
+		  </receiver>
+		
+		  <service
+		  android:name="com.google.android.gms.measurement.AppMeasurementService"
+		  android:enabled="true"
+		  android:exported="false"/>
+		   <receiver
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+		  android:exported="true"
+		  android:permission="com.google.android.c2dm.permission.SEND" >
+		  <intent-filter>
+		  <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		  <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		  <category android:name="com.apps.manageropencart" />
+		  </intent-filter>
+		  </receiver>
+		    <receiver
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+		  android:exported="false" />
+		
+		
+		  <service
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+		  android:exported="true">
+		  <intent-filter android:priority="-500">
+		  <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+		  </intent-filter>
+		  </service>
+		<service
+		  android:name="com.google.firebase.messaging.FirebaseMessagingService"
+		  android:exported="true">
+		  <intent-filter android:priority="-500">
+		  <action android:name="com.google.firebase.MESSAGING_EVENT" />
+		  </intent-filter>
+		  </service>
+		   <service android:name="anywheresoftware.b4a.objects.FirebaseNotificationsService">
+		     <intent-filter>
+		  <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+		     </intent-filter>
+		   </service>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".main"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+			<intent-filter>
+			   <action android:name="android.intent.action.MAIN" />
+			   <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actlogin"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<service android:name=".updater">
+		</service>
+		<receiver android:name=".updater$updater_BR">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actsendpush"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actdetailsofreportitem"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actfeaturemodule"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actbanners"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actstatistic"
+			android:label="Manager App"
+			android:screenOrientation="landscape">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actmenu"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actmenus"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actnewversion"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".actpassword"
+			android:label="Manager App"
+			android:screenOrientation="portrait">
+		</activity>
+		<service android:name=".starter">
+		</service>
+		<receiver android:name=".starter$starter_BR">
+		</receiver>
+		<service android:name=".firebasemessaging">
+		</service>
+		<receiver android:name=".firebasemessaging$firebasemessaging_BR">
+		</receiver>
+		<service android:name="anywheresoftware.b4a.samples.httputils2.httputils2service">
+		</service>
+		<receiver android:name="anywheresoftware.b4a.samples.httputils2.httputils2service$httputils2service_BR">
+		</receiver>
+	</application>
+</manifest>

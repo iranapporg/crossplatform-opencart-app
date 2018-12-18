@@ -1,0 +1,4 @@
+Base64 : UGVyc2lhbk9DZGlnaXRlbGw6T0NGRmFhMjIzNGJi
+Panel: https://server2.asanwebhost.com:2222/CMD_SHOW_DOMAIN?domain=irantermeh.com
+Username : iranterm
+Password : U6dLs80a0s

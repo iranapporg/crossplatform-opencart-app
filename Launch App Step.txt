@@ -1,0 +1,13 @@
+For Android App :
+	1- Get client files and unzip to Clients folder in opencart project directory
+	2- Encrypt Client key and id and save it
+	3- Create Build Configuration for it in B4A
+	4- Compile project and save output
+	
+For Server :
+	1- Upload files.zip to shop host and unzip it
+	2- Add title and color and client id (for manager app) to config file in /app directory
+	3- Add token in config.php and save it
+
+Final :
+	1- Open android app and check it

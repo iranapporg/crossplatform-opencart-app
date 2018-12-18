@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="direction">19</string>
+	<string name="error_data">Connection fail to server</string>
+	<string name="ok">Ok</string>
+	<string name="sending">Sending...</string>
+	
+	<string name="title1">Easy manage your shop with app</string>
+	<string name="title2">Welcome! Please login</string>
+	<string name="username">Enter your domain name example : domain.com</string>
+	<string name="password">Enter password</string>
+	<string name="login">Login</string>
+	
+	<string name="password_title1">Change Passowrd</string>
+	<string name="password_title2">Store your password out of reach</string>
+	<string name="password2">Enter new password</string>
+	<string name="password_confirm">Confirm new password</string>
+	<string name="change_password_button">Change</string>
+	<string name="back">Back</string>
+	<string name="changed_password">The password was successfully changed</string>
+	<string name="no_same_password">Error : passwords not matches</string>
+	<string name="chainging_password">Changing password...</string>
+	
+	<string name="current_version">Your current shop\'s app version is 0</string>
+	<string name="about_title">About us</string>
+	<string name="about"> Hi \n You can store your mobile app for Android and iOS have \n Simply visit our website \nwww.opencart.ir \n Thanks from opencart management</string>
+	<string name="header1">Welcome to the 0 Store Panel</string>
+	<string name="header2">Easy manage your shop</string>
+
+	<string name="push_title1">Send push notification to all</string>
+	<string name="push_title2">Fast notify to users</string>
+	<string name="push_label">Enter push title :</string>
+	<string name="push_message">Enter push message :</string>
+	<string name="push_type">Select push notification type :</string>
+	<string name="push_value">Enter push value for choosen type :</string>
+	<string name="push_button_text">Enter push\'s button text : </string>
+	<string name="send_push">Send</string>
+	<string name="push_type_site">Open Website</string>
+	<string name="push_type_product">Open product with id</string>
+	<string name="push_type_picture">Show online picture</string>
+	<string name="error_push_title">Error: minimum character is 3</string>
+	<string name="error_push_message">Error: minumum character is 20</string>
+	<string name="no_push_type_site">Error: the website address not url for push type</string>
+	<string name="no_push_type_product">Error: the product id not number for push type</string>
+	<string name="sent_push">Message has been successfully sent to users</string>
+	
+	<string name="no_internet">Please enable Internet</string>
+	<string name="error_username">Username should be domain name example : domain.com</string>
+	<string name="error_password">Error: The password is at least 5 letters</string>
+	<string name="during_login">Now authentication ...</string>
+	<string name="error_up">Error: Username or password is incorrect</string>
+	<string name="no_domain">Such domains are not available</string>
+	
+	<string name="menu_push_title">Send Push Notifications</string>
+	<string name="menu_push_subtitle">Send a message to all Android mobiles</string>
+	<string name="menu_statistic_title">Mobile Statistics installation</string>
+	<string name="menu_statistic_subtitle">App reporting installed on the phone</string>
+	<string name="menu_banner_title">Choosen your banner</string>
+	<string name="menu_banner_subtitle">Show only special banner in app</string>
+	<string name="menu_menu_title">Hide selected menus</string>
+	<string name="menu_menu_subtitle">Prevent show any selected menu in slidemenu</string>
+	<string name="menu_activeshop_title">Disable shop\'s app</string>
+	<string name="menu_activeshop_subtitle">Preventing the user\'s mobile app</string>
+	<string name="menu_disactiveshop_title">Enable shop\'s app</string>
+	<string name="menu_disactiveshop_subtitle">Allowing the user to mobile app</string>
+	<string name="menu_password_title">Change your password</string>
+	<string name="menu_password_subtitle">Change user account password</string>
+	<string name="menu_download_title">Download shop\'s app</string>
+	<string name="menu_download_subtitle">Install the latest version of your shop\'s app</string>
+	<string name="menu_about_title">About opencart shop</string>
+	<string name="menu_about_subtitle">Learn more about opencart shop</string>
+	<string name="menu_exit_title">Signout account</string>
+	<string name="menu_exit_subtitle">After using the app, sign out</string>
+	<string name="new_update">This feature will be available in the next version</string>
+	<string name="downloading">Downloading...</string>
+	<string name="change_state_shop">Do you want to change the current state of the app store?</string>
+	<string name="yes">yes</string>
+	<string name="no">No</string>
+	<string name="alert">Alert</string>
+	<string name="during_apply">Applying...</string>
+	<string name="shop_is_disactive">Your store has been successfully deactivated</string>
+	<string name="shop_is_active">Your store has been successfully activated</string>
+	
+	<string name="choose_banner">Select the required banner to display</string>
+	<string name="no_choosen_banner">No choosen banners to display in app</string>
+	<string name="choosen_banner">Changes saved successfully on mobile app</string>
+	<string name="apply">Apply</string>
+	
+	<string name="new_update_receive">A new update of this app is ready to install\nPlease install and enjoy it</string>
+	<string name="changelog">Changelog current version</string>
+	
+	<string name="statistic_title">Report installed app via user</string>
+	<string name="ip">Ip</string>
+	<string name="time">Register in</string>
+	<string name="name">DeviceName</string>
+	
+	<string name="error_config">Error : your shop didn\'t configure</string>
+	<string name="extra">For more details about user,click on row in table</string>
+	
+	<string name="hostname">Host Name</string>
+	<string name="city">City</string>
+	<string name="region">Region</string>
+	<string name="country">Country</string>
+	<string name="loc">Location On Map</string>
+	<string name="org">Organization</string>
+	<string name="model">Mobile Model</string>
+	<string name="brand">Mobile Bramd</string>
+	<string name="sdk">SDK Version</string>
+	<string name="root">Is it root?</string>
+	<string name="manufacturer">Mobile Manufacturer</string>
+	<string name="language">Mobile Language</string>
+	<string name="osname">Operating System Name</string>
+	<string name="osversion">Operating System Version</string>
+	<string name="phonenumber">Phone Number</string>
+	<string name="useragent">Browser Name</string>
+	<string name="appversion">Installed App Version</string>
+	
+	<string name="manufacture_base">Manufacture banner in bottom app</string>
+	
+	<string name="choose_menu">Select the menu that you want to hide</string>
+	<string name="choosen_menu">Changes were imposed on menus mobile app</string>
+	
+	<string name="app_menu_basket">Your Cart:basket</string>
+	<string name="app_menu_category">Category:catalog</string>
+	<string name="app_menu_search">Search Product:search</string>
+	<string name="app_menu_bookmark">Favorite:bookmark</string>
+	<string name="app_menu_compare">Compare List:compare</string>
+	<string name="app_menu_login">Login User:login</string>
+	<string name="app_menu_register">Register:register</string>
+	<string name="app_menu_latest">New Product:latest</string>
+	<string name="app_menu_feature">Feature Product:feature</string>
+	<string name="app_menu_best">Best Product:best</string>
+	<string name="app_menu_contact">Contact us:contact</string>
+	<string name="app_menu_about">Shop Information:about</string>
+	<string name="app_menu_update">Update app content:update</string>
+	<string name="app_menu_information">All information menus:information</string>
+	<string name="app_menu_share">Send app to friends:share</string>
+	
+	<string name="menu_https_title">Active Https</string>
+	<string name="menu_https_subtitle">Active and disactive https and http</string>
+	
+	<string name="menu_nohttps_title">Disactive Https</string>
+	<string name="menu_nohttps_subtitle">Active and disactive https and http</string>
+	
+	<string name="menu_feature_title">Manage feature option</string>
+	<string name="menu_feature_subtitle">Select favorite module for show it app</string>
+	<string name="choose_module">Select your favorite module</string>
+	<string name="choosen_module">Choosen module changed successfully</string>
+	
+	<string name="prepare">Retreive data...</string>
+	<string name="error_client_id">Error : your client id not save on server</string>
+	
+	<string name="product_count"> [ Contain 0 product ] </string>
+	
+	<string name="shop_is_http">Site set to http state</string>
+	<string name="shop_is_https">Site set to https state</string>
+	
+	<string name="change_state_https">Are you sure to change Http/Https state of shop?</string>
+
+</resources>

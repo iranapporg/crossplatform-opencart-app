@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Opencart" parent="@style/_Opencart"/>
+
+  <style name="_Opencart" parent="android:Theme.Holo.Light">
+	
+    <item name="android:editTextBackground">@drawable/opencart_edit_text_holo_light</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/opencart_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/opencart_btn_radio_holo_light</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerOpencart</item>
+	
+	<item name="android:windowDisablePreview">true</item>
+	
+  </style>
+
+</resources>

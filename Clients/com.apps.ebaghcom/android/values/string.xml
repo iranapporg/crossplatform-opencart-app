@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_id">moUswst0/eKVfkuEIi98JocsXRkqTDPda07EIXdWJaZSrXLH2iLMWQ==</string>
+	<string name="client_secret">29m2Tx4yzXZboaPbpAA48dLs9rYLabAh/isR//8hHIrThVYH/vApEg==</string>
+	
+	<string name="default_language">fa</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">09113959194</string>
+	<string name="shop_phone">01154250170</string>
+	<string name="shop_emails">info@ebagh.com</string>
+		
+	<string name="app_title">Ebagh</string>
+	<string name="shop_details">بررسی٫انتخاب و خرید آنلاین گل و گیاه</string>
+	<string name="url">http://ebagh.com</string>
+	
+	<string name="theme_header">#37b66a</string>
+	<string name="theme_bg">#f8f8f8</string>
+	<string name="textbox_color">#FAFAFA</string>
+	<string name="theme_footer">#7f7f7f</string>
+	
+	<string name="button_active_color">#53ba7f</string>
+	<string name="button_hover_color">#3ba367</string>
+	
+	<string name="toastshow_color">#d73712</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#1e8a4a</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#ffffff</string>
+	<string name="menubar_header">#fbfafa</string>
+	<string name="menubar_textcolor">#003c72</string>
+	<string name="menubar_logo_color">#ffffff</string>
+	<string name="category_button">#0f8741</string>
+	
+	<string name="scheme">ebagh</string>
+	<string name="need_to_login_site">0</string>
+	<string name="default_currency">TOM</string>
+	
+</resources>

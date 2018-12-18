@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_id">E+jDeBampauewnc/97e7fIOuLWnkXvDaDQxi9zNprWxYTtZSiJsBYQ==</string>
+	<string name="client_secret">qL9SMR5Yj+xIOVrTWorEVfcyL4w7SJVJXLN3tAswP6Cu/v6hEhKn3g==</string>
+	
+	<string name="default_language">fa</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">02133941872</string>
+	<string name="shop_phone">02133996626</string>
+	<string name="shop_emails">info@lalehzarkala.com</string>
+		
+	<string name="app_title">لاله زار کالا</string>
+	<string name="shop_details">ما فقط یک فروشگاه مجازی نیستیم نشانی : خ لاله زار</string>
+	<string name="url">https://lalehzarkala.com</string>
+	
+	<string name="theme_header">#fe0000</string>
+	<string name="theme_bg">#f8f8f8</string>
+	<string name="textbox_color">#FAFAFA</string>
+	<string name="theme_footer">#7f7f7f</string>
+	
+	<string name="button_active_color">#c10e0e</string>
+	<string name="button_hover_color">#9b1616</string>
+	
+	<string name="toastshow_color">#ce183f</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#26a620</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#661014</string>
+	<string name="menubar_header">#530d10</string>
+	<string name="menubar_textcolor">#ffffff</string>
+	<string name="menubar_logo_color">#ca2323</string>
+	<string name="category_button">#872020</string>
+	
+	<string name="scheme">lalehzar</string>
+	
+	<string name="need_to_login_site">1</string>
+	<string name="is_https">1</string>
+	
+</resources>

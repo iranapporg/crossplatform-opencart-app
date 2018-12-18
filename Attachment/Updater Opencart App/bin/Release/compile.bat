@@ -1,0 +1,2 @@
+"C:\Program Files (x86)\Anywhere Software\Basic4android6.3\B4ABuilder.exe" -Obfuscate=true -Optimize=true -Configuration=Demo -BaseFolder="Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Android" 
+copy "Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Android\Objects\opencart.apk" "C:\omid\Demo.apk"

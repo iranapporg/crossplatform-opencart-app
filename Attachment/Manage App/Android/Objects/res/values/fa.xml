@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="direction">21</string>
+	<string name="error_data">متاسفانه ارتقا با شکست مواجه شد</string>
+	<string name="ok">باشه</string>
+	<string name="sending">در حال ارسال...</string>
+	
+	<string name="title1">مدیریت آسان اپ موبایل فروشگاه</string>
+	<string name="title2">خوش آمدید! برای مدیریت لاگین شوید</string>
+	<string name="username">آدرس دامین خود را وارد کنید : مثال exmaple.com</string>
+	<string name="password">رمز عبور را وارد کنید</string>
+	<string name="login">ورود به حساب کاربری</string>
+	
+	<string name="password_title1">تغییر رمز کاربری</string>
+	<string name="password_title2">در نگهداری رمز دقت کنید</string>
+	<string name="password2">لطفا رمز عبور را وارد کنید :</string>
+	<string name="password_confirm">لطفا رمز عبور را دوباره وارد کنید :</string>
+	<string name="change_password_button">رمز را تغییر بده</string>
+	<string name="back">برگشت به منو</string>
+	<string name="changed_password">رمز عبور با موفقیت تغییر داده شد</string>
+	<string name="no_same_password">خطا: رمز عبور ها با هم یکسان نمیباشد</string>
+	<string name="chainging_password">در حال تغییر رمز عبور...</string>
+	
+	<string name="current_version">نسخه فعلی اپ موبایل فروشگاه شما : 0</string>
+	<string name="about_title">درباره ما</string>
+	<string name="about">سلام دوستان\nشما میتوانید برای فروشگاه خود اپ موبایل نسخه اندروید و آی او اس داشته باشید\nکافیست به ادرس سایت ما مراجعه کنید\nwww.opencart.ir\nبا تشکر مدیریت اپن کارت</string>
+	<string name="header1">به پنل فروشگاه 0 خوش امدید</string>
+	<string name="header2">به آسانی ویژه اپن کارت</string>
+
+	<string name="push_title1">ارسال پوش به همه کاربران</string>
+	<string name="push_title2">ارسال آنی پیام به همه کاربران</string>
+	<string name="push_label">عنوان پیام پوش را وارد کنید :</string>
+	<string name="push_message">متن پیام را وارد کنید :</string>
+	<string name="push_type">نوع ارسال پوش را انتخاب کنید :</string>
+	<string name="push_value">مقدار مرتبط با نوع پوش را وارد کنید :</string>
+	<string name="push_button_text">متن دکمه تایید پیام پوش را وارد کنید :</string>
+	<string name="send_push">ارسال پوش</string>
+	<string name="push_type_site">باز کردن سایت</string>
+	<string name="push_type_product">باز کردن محصول با کد آن</string>
+	<string name="push_type_picture">نمایش تصویر از آدرس اینترنتی</string>
+	<string name="error_push_title">عنوان باید حداقل 3 حرفی باشد</string>
+	<string name="error_push_message">متن پیام باید حداقل 20 حرفی باشد</string>
+	<string name="no_push_type_site">مقدار مرتبط با نوع پوش از انتخاب ادرس اینترنتی نیست</string>
+	<string name="no_push_type_product">مقدار مرتبط با نوع پوش از انتخاب کد محصول عددی نیست</string>
+	<string name="sent_push">پوش نوتیفیکیشن با موفقیت به 0 کاربر ارسال شد</string>
+	
+	<string name="no_internet">لطفا اینترنت را فعال کنید</string>
+	<string name="error_username">خطا : نام کاربری باید شامل آدرس دامین مثل domain.com باشد</string>
+	<string name="error_password">خطا: طول رمز حداقل باید 5 حرفی باشد</string>
+	<string name="during_login">در حال تایید هویت...</string>
+	<string name="error_up">خطا : نام کاربری یا رمز عبور اشتباه میباشد</string>
+	<string name="no_domain">چنین دامینی وجود ندارد.دوباره تلاش کنید</string>
+	
+	<string name="menu_push_title">ارسال پوش نوتیفیکیشن</string>
+	<string name="menu_push_subtitle">ارسال پیام به همه ی موبایل های اندرویدی</string>
+	<string name="menu_statistic_title">آمار موبایل های نصبی</string>
+	<string name="menu_statistic_subtitle">گزارش گیری از موبایل های نصب شده در گوشی</string>
+	<string name="menu_banner_title">انتخاب بنر دلخواه</string>
+	<string name="menu_banner_subtitle">نمایش بنرهای انتخابی شما در اپ</string>
+	<string name="menu_menu_title">مخفی کردن منوهای دلخواه</string>
+	<string name="menu_menu_subtitle">منوهایی که نیازی به نمایش در منوی اسلایدی نیستند</string>
+	<string name="menu_activeshop_title">غیرفعال کردن فروشگاه</string>
+	<string name="menu_activeshop_subtitle">جلوگیری از ورود کاربر به اپ موبایل</string>
+	<string name="menu_disactiveshop_title">فعال کردن فروشگاه</string>
+	<string name="menu_disactiveshop_subtitle">اجازه ورود کاربر به اپ موبایل</string>
+	<string name="menu_password_title">تغیر رمز عبور</string>
+	<string name="menu_password_subtitle">تغییر رمز عبور حساب کابری</string>
+	<string name="menu_download_title">دانلود اپ فروشگاه</string>
+	<string name="menu_download_subtitle">آخرین نسخه اپ فروشگاه خود را نصب کنید</string>
+	<string name="menu_about_title">درباره اپن کارت</string>
+	<string name="menu_about_subtitle">درباره اپن کارت بیشتر بدانید</string>
+	<string name="menu_exit_title">خروج از حساب کاربری</string>
+	<string name="menu_exit_subtitle">بعد از استفاده از اپ،از حساب خارج شوید</string>
+	<string name="new_update">این قابلیت در نسخه های بعدی ارایه خواهد شد</string>
+	<string name="downloading">در حال دانلود...</string>
+	<string name="change_state_shop">آیا میخواهید وضعیت فعلی اپ فروشگاه را تغییر دهید؟</string>
+	<string name="yes">آری</string>
+	<string name="no">نه</string>
+	<string name="alert">توجه</string>
+	<string name="during_apply">در حال اعمال تغییرات...</string>
+	<string name="shop_is_disactive">فروشگاه شما با موفقیت غیر فعال شد</string>
+	<string name="shop_is_active">فروشگاه شما با موفقیت فعال شد</string>
+	
+	<string name="choose_banner">بنرهای مورد نیاز را جهت نمایش انتخاب کنید</string>
+	<string name="no_choosen_banner">بنری برای نمایش انتخاب نشده است</string>
+	<string name="choosen_banner">بنرهای انتخاب شده بر روی اپ موبایل اعمال شد</string>
+	<string name="apply">ذخیره</string>
+	
+	<string name="new_update_receive">آپدیت جدید این برنامه دریافت و آماده نصب است\nلطفا نصب کنید</string>
+	<string name="changelog">تغییرات جدید نسخه فعلی اپ</string>
+	
+	<string name="statistic_title">آمار نصب شده ها</string>
+	<string name="ip">آی پی</string>
+	<string name="time">ثبت نام</string>
+	<string name="name">نام دستگاه</string>
+	
+	<string name="error_config">خطا : فروشگاه شما پیکربندی نشده است</string>
+	<string name="extra">برای توضیحات بیشتر روی سطر مورد نظر کلیک کنید</string>
+	
+	<string name="hostname">نام هاست</string>
+	<string name="city">شهر</string>
+	<string name="region">منطقه</string>
+	<string name="loc">موقعیت جغرافیایی</string>
+	<string name="org">سازمان اینترنت</string>
+	<string name="model">مدل گوشی</string>
+	<string name="brand">برند گوشی</string>
+	<string name="sdk">نسخه اس دی کا</string>
+	<string name="root">آیا روت میباشد؟</string>
+	<string name="manufacturer">شرکت سازنده گوشی</string>
+	<string name="language">زبان گوشی</string>
+	<string name="country">کشور</string>
+	<string name="osname">نام نسخه سیستم عامل</string>
+	<string name="osversion">نسخه سیستم عامل</string>
+	<string name="phonenumber">شماره تماس</string>
+	<string name="useragent">نام مرورگر</string>
+	<string name="appversion">نسخه اپ نصب شده</string>
+	
+	<string name="manufacture_base">بنر تولیدکنندگان قسمت پایینی اپ</string>
+	
+	<string name="choose_menu">منوهای مورد نیاز را جهت مخفی کردن انتخاب کنید</string>
+	<string name="choosen_menu">تغییرات بر روی منوهای اپ موبایل اعمال شد</string>
+	
+	<string name="app_menu_basket">سبد خرید شما:basket</string>
+	<string name="app_menu_category">دسته بندی ها:catalog</string>
+	<string name="app_menu_search">جستجوی کالا:search</string>
+	<string name="app_menu_bookmark">لیست دلخواه:bookmark</string>
+	<string name="app_menu_compare">لیست مقایسه:compare</string>
+	<string name="app_menu_login">ورود کاربر:login</string>
+	<string name="app_menu_register">ثبت نام کاربر:register</string>
+	<string name="app_menu_latest">جدیدترین ها:latest</string>
+	<string name="app_menu_feature">داغ ترین ها:feature</string>
+	<string name="app_menu_best">پرفروش ترین ها:best</string>
+	<string name="app_menu_contact">ارتباط با ما:contact</string>
+	<string name="app_menu_about">مشخصات فروشگاه:about</string>
+	<string name="app_menu_update">بروز رسانی محتویات:update</string>
+	<string name="app_menu_information">منوی کامل اطلاعات فروشگاه:information</string>
+	<string name="app_menu_share">ارسال اپ به دوستان:share</string>
+	
+	<string name="menu_https_title">فعال کردن Https</string>
+	<string name="menu_https_subtitle">فعال و غیر فعال کردن قابلیت Https</string>
+	
+	<string name="menu_nohttps_title">غیر فعال کردن Https</string>
+	<string name="menu_nohttps_subtitle">فعال و غیر فعال کردن قابلیت Https</string>
+	
+	<string name="menu_feature_title">مدیریت داغ ترین ها</string>
+	<string name="menu_feature_subtitle">ماژول منتخب نمایش در اپ را انتخاب کنید</string>
+	<string name="choose_module">ماژول مورد را جهت نمایش انتخاب کنید</string>
+	<string name="choosen_module">ماژول مورد نظر انتخاب شد</string>
+	
+	<string name="prepare">در حال بررسی...</string>
+	<string name="error_client_id">خطا : کد دسترسی فروشگاه در سرور وجود ندارد</string>
+	
+	<string name="product_count"> [ شامل 0 محصول ] </string>
+	
+	<string name="shop_is_http">آدرس سایت در حالت Http قرار گرفت</string>
+	<string name="shop_is_https">آدرس سایت در حالت Https قرار گرفت</string>
+	<string name="change_state_https">آیا مایل به تغییر حالت Http/Https فروشگاه هستید؟</string>
+	
+</resources>

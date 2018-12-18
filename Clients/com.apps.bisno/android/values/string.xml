@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_id">eLVZm0p4JG9dzuk/ZgaAeEcRTwMbHSsDM/hN5jlRBImCduK0k+8Cww==</string>
+	<string name="client_secret">KZptDBVEC3Guw6DXJPqv9w15PpwSbWH2lbMtDcLdKAhF8NYSW+xCWyMpZtVSlb8mnifRSdLdiH0=</string>
+	
+	<string name="default_language">fa</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">071000000</string>
+	<string name="shop_phone">071000000</string>
+	<string name="shop_emails">info@bisno.ir/</string>
+		
+	<string name="app_title">بیس نو</string>
+	<string name="shop_details">فارس، داراب، فروشگاه اینترنتی بیس نو</string>
+	<string name="url">http://bisno.ir</string>
+	
+	<string name="theme_header">#4ac4fa</string>
+	<string name="theme_bg">#f8f8f8</string>
+	<string name="textbox_color">#FAFAFA</string>
+	<string name="theme_footer">#7f7f7f</string>
+	
+	<string name="button_active_color">#24a8e2</string>
+	<string name="button_hover_color">#24a8e2</string>
+	
+	<string name="toastshow_color">#fb1c68</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#1479a6</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#ffffff</string>
+	<string name="menubar_header">#ececec</string>
+	<string name="menubar_textcolor">#003c72</string>
+	<string name="menubar_logo_color">#ffffff</string>
+	<string name="category_button">#4ac4fa</string>
+	
+	<string name="scheme">skharid</string>
+	<string name="need_to_login_site">0</string>
+	<string name="default_currency">TOM</string>
+	
+</resources>

@@ -1,0 +1,135 @@
+﻿Version=7.01
+NumberOfModules=17
+Module1=actLogin
+Module2=updater
+Module3=actSendPush
+Module4=actDetailsOfReportItem
+Module5=Library
+Module6=actFeatureModule
+Module7=OpenCart
+Module8=actBanners
+Module9=actStatistic
+Module10=actMenu
+Module11=actMenus
+Module12=ShowProgress
+Module13=MyToastMessageShow
+Module14=actNewVersion
+Module15=actPassword
+Module16=Starter
+Module17=FirebaseMessaging
+Build1=Default,com.apps.manageropencart
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="19"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'SetApplicationAttribute(android:theme,"@android:style/Theme.Translucent")~\n~SetApplicationAttribute(android:theme, "@style/_Opencart")~\n~SetActivityAttribute(actstatistic,android:screenOrientation,"landscape")~\n~'End of default text.~\n~~\n~'************ Google Play Services Base ************~\n~AddApplicationText(~\n~   <activity android:name="com.google.android.gms.common.api.GoogleApiActivity"~\n~  android:theme="@android:style/Theme.Translucent.NoTitleBar"~\n~  android:exported="false"/>~\n~    <meta-data~\n~  android:name="com.google.android.gms.version"~\n~  android:value="@integer/google_play_services_version" />~\n~)~\n~'************ Google Play Services Base (end) ************~\n~~\n~'************ Firebase Base ************~\n~CreateResourceFromFile("google-services", "google-services.json")~\n~AddPermission(android.permission.ACCESS_NETWORK_STATE)~\n~AddPermission(android.permission.INTERNET)~\n~AddPermission(android.permission.WAKE_LOCK)~\n~AddPermission(com.google.android.c2dm.permission.RECEIVE)~\n~AddPermission(${applicationId}.permission.C2D_MESSAGE)~\n~AddManifestText( <permission android:name="${applicationId}.permission.C2D_MESSAGE"~\n~  android:protectionLevel="signature" />)~\n~AddApplicationText(~\n~<receiver~\n~  android:name="com.google.android.gms.measurement.AppMeasurementReceiver"~\n~  android:enabled="true">~\n~  <intent-filter>~\n~  <action android:name="com.google.android.gms.measurement.UPLOAD"/>~\n~  </intent-filter>~\n~  </receiver>~\n~~\n~  <service~\n~  android:name="com.google.android.gms.measurement.AppMeasurementService"~\n~  android:enabled="true"~\n~  android:exported="false"/>~\n~   <provider~\n~  android:authorities="${applicationId}.firebaseinitprovider"~\n~  android:name="com.google.firebase.provider.FirebaseInitProvider"~\n~  android:exported="false"~\n~  android:initOrder="100" />~\n~    <receiver~\n~  android:name="com.google.android.gms.measurement.AppMeasurementReceiver"~\n~  android:enabled="true">~\n~  <intent-filter>~\n~  <action android:name="com.google.android.gms.measurement.UPLOAD"/>~\n~  </intent-filter>~\n~  </receiver>~\n~~\n~  <service~\n~  android:name="com.google.android.gms.measurement.AppMeasurementService"~\n~  android:enabled="true"~\n~  android:exported="false"/>~\n~   <receiver~\n~  android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"~\n~  android:exported="true"~\n~  android:permission="com.google.android.c2dm.permission.SEND" >~\n~  <intent-filter>~\n~  <action android:name="com.google.android.c2dm.intent.RECEIVE" />~\n~  <action android:name="com.google.android.c2dm.intent.REGISTRATION" />~\n~  <category android:name="${applicationId}" />~\n~  </intent-filter>~\n~  </receiver>~\n~    <receiver~\n~  android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"~\n~  android:exported="false" />~\n~~\n~~\n~  <service~\n~  android:name="com.google.firebase.iid.FirebaseInstanceIdService"~\n~  android:exported="true">~\n~  <intent-filter android:priority="-500">~\n~  <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />~\n~  </intent-filter>~\n~  </service>~\n~)~\n~'************ Firebase Base (end) ************~\n~~\n~'************ Firebase Notifications ************~\n~AddApplicationText(~\n~    <service~\n~  android:name="com.google.firebase.messaging.FirebaseMessagingService"~\n~  android:exported="true">~\n~  <intent-filter android:priority="-500">~\n~  <action android:name="com.google.firebase.MESSAGING_EVENT" />~\n~  </intent-filter>~\n~  </service>~\n~   <service android:name="anywheresoftware.b4a.objects.FirebaseNotificationsService">~\n~     <intent-filter>~\n~  <action android:name="com.google.firebase.MESSAGING_EVENT"/>~\n~     </intent-filter>~\n~   </service>~\n~)~\n~'************ Firebase Notifications (end)************
+IconFile=
+NumberOfFiles=18
+File1=frmbanners.bal
+File2=frmchangepassword.bal
+File3=frmitem.bal
+File4=frmitem_banners.bal
+File5=frmitem_banners_en.bal
+File6=frmitem_en.bal
+File7=frmitem_module.bal
+File8=frmitem_module_en.bal
+File9=frmitem_report.bal
+File10=frmloading.bal
+File11=frmlogin.bal
+File12=frmmenu.bal
+File13=frmmeny.bal
+File14=frmnewversion.bal
+File15=frmsendpush.bal
+File16=frmsplash.bal
+File17=frmstatistic.bal
+File18=notification.mp3
+NumberOfLibraries=22
+Library1=core
+Library2=statusbarcompat
+Library3=okhttp
+Library4=network
+Library5=json
+Library6=javaobject
+Library7=androidresources
+Library8=reflection
+Library9=stringutils
+Library10=ime
+Library11=resources
+Library12=preferenceactivity
+Library13=okhttputils2
+Library14=checksignature
+Library15=phone
+Library16=persiandate
+Library17=net
+Library18=b4xencryption
+Library19=richstring
+Library20=ultimatelistview
+Library21=firebasenotifications
+Library22=notificationbuilder
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Manager App
+	#VersionCode: 2
+	#VersionName: 1.5.0
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: True
+	#BridgeLogger: True
+	#AdditionalRes: ../notification_resource
+	#If RELEASE
+	#CustomBuildAction: 4, D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\bin\Release\oua.exe, 1
+	#End If
+	
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+Sub Process_Globals
+ 
+End Sub
+
+Sub Globals
+	Private rben As RadioButton
+	Private rbfa As RadioButton
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	
+	StartService(updater)
+	
+	If File.Exists(File.DirInternal,Library.LanguageFilename) Then
+		Activity.Finish
+		StartActivity(actLogin)
+		Return	
+	End If
+	
+	Dim status As StatusBarCompat
+	status.Initialize
+	status.StatusBarColor = Colors.RGB(33,33,33)
+	
+	Activity.LoadLayout("frmsplash")
+	
+End Sub
+
+Sub Activity_Resume
+	CallSubDelayed(FirebaseMessaging,"SubscribeToTopics")
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+	Activity.Finish
+End Sub
+
+Sub rben_CheckedChange(Checked As Boolean)
+	
+	File.WriteString(File.DirInternal,Library.LanguageFilename,"en")
+	Library.setLocalApp
+	StartActivity(actLogin)
+	
+End Sub
+
+Sub rbfa_CheckedChange(Checked As Boolean)
+	
+	File.WriteString(File.DirInternal,Library.LanguageFilename,"fa")
+	Library.setLocalApp
+	StartActivity(actLogin)
+	
+End Sub

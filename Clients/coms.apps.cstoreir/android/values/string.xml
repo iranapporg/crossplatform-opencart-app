@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_secret">N5UqjfPdjbFT9TDyzrVq6ywYWnsPKfB0zZf6Bn1pXgI3a0uM9HB/KlQB0rEgFyxK3k2D1N6VO+8=</string>
+	<string name="client_id">gXjdJtPAPoFvb0Gq76nezLTgjeQda6To6H2HcSxkIrONB8OYSQIwDw==</string>
+	
+	<string name="default_language">fa</string>
+	<string name="default_currency">TOM</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">09131616616</string>
+	<string name="shop_phone">02184360-5</string>
+	<string name="shop_emails">info@cstore.ir</string>
+		
+	<string name="app_title">فروشگاه اينترنتي خانه عمران</string>
+	<string name="shop_details">مرجع آزمون هاي تخصصيصنعت ساختمان</string>
+	<string name="url">http://cstore.ir</string>
+	
+	<string name="theme_header">#ff707f</string>
+	<string name="theme_bg">#f8f8f8</string>
+	<string name="textbox_color">#636363</string>
+	<string name="theme_footer">#a2a2a2</string>
+	
+	<string name="button_active_color">#ff7081</string>
+	<string name="button_hover_color">#b84450</string>
+	
+	<string name="toastshow_color">#e4186a</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#3eaf44</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#f4f4f4</string>
+	<string name="menubar_header">#ff707d</string>
+	<string name="menubar_textcolor">#636363</string>
+	<string name="menubar_logo_color">#f8f8f8</string>
+	<string name="category_button">#ff7081</string>
+	
+	<string name="scheme">cstoreir</string>
+	
+	<string name="push_device_key">gOdumQCMIOQ=</string>
+	<string name="push_board_url">app/push/server.php</string>
+	<string name="push_sender_id">e/I66wcFLGiFuyNSkwH1Jg==</string>
+	<string name="push_channel">ES2NcfJJh9w=</string>
+	<string name="need_to_login_site">0</string>
+	<string name="is_https">0</string>
+	
+</resources>

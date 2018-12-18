@@ -1,0 +1,32 @@
+App Title : Demo Opencart
+Website : www.iranapp.org
+Name : Omid Aghakhani
+
+Hi
+The Opencart shop’s mobile app in mobile’s world for the first time
+App Features ‫:‬
+Show latest products,top products and company exist in shop
+Show shop’s banner in app and handle click it
+Login to account and manage account
+Ex : Report orders,Modify information,subscribe in newsletter,Change password and other
+Update automatic when any change occur in shops database
+Support all Payment and Ship methods
+Show product’s options and select it
+Produce QR barcode and inapp link
+Add product to favorites
+Search in products or filter it
+Send review and see all user’s reviews
+Support two language (Persian and English)
+List shop’s category and sub category and relate products
+Show product’s discount timer
+Register user
+The features is very much and i cannot write it here.
+If you install app and use it,so you know that what’s features exist in app.
+OK
+Now harry up and take a app for your opencart shop mobile app
+
+Demo User :
+Username : info@opencart.ir
+Password : 12345
+
+Thanks for read

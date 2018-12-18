@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_id">HUZgtPcuszhgMV3zAfL3VW547E2Or8JuiARjZfekj+b8wKmgf3dgHw==</string>
+	<string name="client_secret">8iAj84i04mDMFqSZ3mFKq7zyKrGbzrFbh2H7EVll5WfZr2cSPZ9fPEZj7NAU1ZpAT8mCx23XRUg=</string>
+	
+	<string name="default_language">fa</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">02188728223</string>
+	<string name="shop_phone">02188728223</string>
+	<string name="shop_emails">info@babypro.ir</string>
+		
+	<string name="app_title">بیبی پرو</string>
+	<string name="shop_details">مهربان مثل مادر</string>
+	<string name="url">https://babypro.ir</string>
+	
+	<string name="theme_header">#e7437b</string>
+	<string name="theme_bg">#f8f8f8</string>
+	<string name="textbox_color">#FAFAFA</string>
+	<string name="theme_footer">#7f7f7f</string>
+	
+	<string name="button_active_color">#E91E63</string>
+	<string name="button_hover_color">#C2185B</string>
+	
+	<string name="toastshow_color">#fb1c68</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#ff6a9d</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#ffffff</string>
+	<string name="menubar_header">#fbfafa</string>
+	<string name="menubar_textcolor">#003c72</string>
+	<string name="menubar_logo_color">#ffffff</string>
+	<string name="category_button">#c0265b</string>
+	
+	<string name="scheme">babypro</string>
+	<string name="need_to_login_site">0</string>
+	<string name="default_currency">TOM</string>
+	
+</resources>

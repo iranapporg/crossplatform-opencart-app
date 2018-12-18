@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTextOpencart" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/opencart_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+  
+  <style name="CheckBoxOpencart" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/opencart_btn_check_holo_light</item>
+  </style>
+	
+  <style name="RadioButtonOpencart" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/opencart_btn_radio_holo_light</item>
+  </style>
+
+  <style name="SpinnerOpencart" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/opencart_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/opencart_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerDropDownItemOpencart" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/opencart_btn_radio_holo_light</item>
+  </style>
+  
+</resources>

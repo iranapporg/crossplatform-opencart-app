@@ -1,0 +1,16 @@
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\oua.exe
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\oua.pdb
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\bin\Release\oua.exe
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\bin\Release\oua.pdb
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\ResolveAssemblyReference.cache
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\Online_Update_App.Form1.resources
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\Online_Update_App.Properties.Resources.resources
+Y:\Documents\My Tools\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\Updater Opencart App.csproj.GenerateResource.Cache
+D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\oua.exe
+D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\oua.pdb
+D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\bin\Release\oua.exe
+D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\bin\Release\oua.pdb
+D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\ResolveAssemblyReference.cache
+D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\Online_Update_App.Form1.resources
+D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\Online_Update_App.Properties.Resources.resources
+D:\Current Project\Programming\CrossPlatform\Opencart\Attachment\Updater Opencart App\obj\Release\Updater Opencart App.csproj.GenerateResource.Cache

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_id">SxT9KB/ECs+VhxZx3MRRWEDwPbfKjR2DZFeJx0jxGDvIXLJ2sITwVw==</string>
+	<string name="client_secret">vaJ51A4B556VfO+oFbiVK0yKBgiuTTyyyvD5/SwLRq3zTa09MBgrKUmyQfuKVSbM9Dq3qep4XPk=</string>
+	
+	<string name="default_language">fa</string>
+	<string name="version">1</string>
+	
+	<string name="shop_sms">09384592738</string>
+	<string name="shop_phone">44380218</string>
+	<string name="shop_emails">info@ghuch.ir</string>
+		
+	<string name="app_title">فروشگاه اینترنتی قوچ</string>
+	<string name="shop_details">معاوضه کالای کهنه  با نو</string>
+	<string name="url">https://ghuch.ir</string>
+	
+	<string name="theme_header">#df0017</string>
+	<string name="theme_bg">#ffffff</string>
+	<string name="textbox_color">#000000</string>
+	<string name="theme_footer">#a2a2a2</string>
+	
+	<string name="button_active_color">#ffffff</string>
+	<string name="button_hover_color">#ffffff</string>
+	
+	<string name="toastshow_color">#e4186a</string>
+	<string name="toastshow_textcolor">#ffffff</string>
+	<string name="toastshow_success">#3eaf44</string>
+	<string name="toastshow_delay">1.8</string>
+	
+	<string name="menubar_color">#000000</string>
+	<string name="menubar_header">#df0017</string>
+	<string name="menubar_textcolor">#ffffff</string>
+	<string name="menubar_logo_color">#df0017</string>
+	<string name="category_button">#df0017</string>
+	
+	<string name="scheme">babypro</string>
+	<string name="need_to_login_site">0</string>
+	<string name="default_currency">TOM</string>
+	
+</resources>

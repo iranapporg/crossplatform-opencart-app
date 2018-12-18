@@ -1,0 +1,629 @@
+﻿Version=6.8
+NumberOfModules=38
+Module1=actProduct
+Module2=OpenCart
+Module3=SlideMenu
+Module4=actCompare
+Module5=actMenu
+Module6=Library
+Module7=actDoOrder
+Module8=actBasket
+Module9=actPayment
+Module10=actProducts
+Module11=actSearch
+Module12=actReview
+Module13=actErrorIntrenet
+Module14=actContact
+Module15=actCategory
+Module16=actNotification
+Module17=actAbout
+Module18=actOrderDetails
+Module19=actRegister
+Module20=actLogin
+Module21=CacheSystem
+Module22=actUpdate
+Module23=actSetting
+Module24=actDisableShop
+Module25=Bookmark
+Module26=actAccount
+Module27=MyToastMessageShow
+Module28=GoogleVoices
+Module29=actPicture
+Module30=ListProducts
+Module31=actSMS
+Module32=actShow
+Module33=CustomListView
+Module34=actWeb
+Module35=DateUtils
+Module36=ImageDownloader
+Module37=updater
+Module38=Starter
+Build1=Demo,com.apps.demo,Demo
+Build2=Babypro,com.apps.babyproir,com_apps_babyproir
+Build3=Ebagh,com.apps.ebagh,com_apps_ebaghcom
+Build4=Lalelzar,com.apps.lalehzarkala2,com_apps_lalehzarkala
+Build5=Skharid,com.apps.skharid,com_apps_skharid
+Build6=MobileDigitell,com.apps.mobiledigitell,com_apps_mobiledigitell
+Build7=CStore,com.apps.cstore,com_apps_cstore
+Build8=KalaStock,com.apps.kalastockir,com_apps_kalastockir
+Build9=Termeh,com.apps.irantermehcom,com_apps_irantermehcom
+Build10=Shopgpgsm,com.apps.shopgpgsm,com_apps_shopgpgsm
+Build11=Ghoch,com.apps.ghochir,com_apps_ghochir
+Build12=Bisno,com.apps.bisno,com_apps_bisno
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'@string/url2~\n~'See this link for for more information: http://www.basic4ppc.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="26"/>~\n~<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~~\n~SetActivityAttribute(actdoorder, android:windowSoftInputMode, adjustPan)~\n~~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:largeHeap, true)~\n~SetApplicationAttribute(android:label,"@string/app_title")~\n~'SetApplicationAttribute(android:theme, "@android:style/Theme.Holo.Light")~\n~SetApplicationAttribute(android:theme, "@style/_Opencart")~\n~~\n~AddApplicationText(<activity android:name="de.amberhome.objects.preferenceactivity"/>)~\n~~\n~AddPermission(android.permission.SEND_SMS)~\n~~\n~AddActivityText(actshow, <intent-filter>~\n~  <action android:name="android.intent.action.VIEW"></action>~\n~  <category android:name="android.intent.category.DEFAULT"></category>~\n~  <category android:name="android.intent.category.BROWSABLE"></category>~\n~  <data android:host="@string/scheme" android:scheme="opencart"></data>~\n~</intent-filter>)~\n~~\n~'SetActivityAttribute(actregister, android:screenOrientation, "portrait")~\n~SetActivityAttribute(actlogin, android:screenOrientation, "portrait")~\n~'SetActivityAttribute(actbasket, android:screenOrientation, "portrait")~\n~SetActivityAttribute(actabout, android:screenOrientation, "portrait")~\n~SetActivityAttribute(actaccount, android:screenOrientation, "portrait")~\n~SetActivityAttribute(actcontact, android:screenOrientation, "portrait")~\n~SetActivityAttribute(googlevoices, android:theme, @android:style/Theme.Translucent.NoTitleBar)~\n~SetActivityAttribute(actnotification, android:theme, @android:style/Theme.Translucent.NoTitleBar)~\n~~\n~RemovePermission(android.permission.SEND_SMS)
+IconFile=
+NumberOfFiles=74
+File1=alert.png
+File2=byekan.ttf
+File3=divider.png
+File4=divider1.png
+File5=en.png
+File6=fa.png
+File7=frmabout.bal
+File8=frmaccount_add_address.bal
+File9=frmaccount_address.bal
+File10=frmaccount_details.bal
+File11=frmaccount_newsletter.bal
+File12=frmaccount_password.bal
+File13=frmaccounts.bal
+File14=frmbasket.bal
+File15=frmcategory.bal
+File16=frmcompare.bal
+File17=frmcontact.bal
+File18=frmdisactiveshop.bal
+File19=frmdoorder.bal
+File20=frmerronet.bal
+File21=frmheader_template.bal
+File22=frmheader_template_en.bal
+File23=frmlogin.bal
+File24=frmmenu.bal
+File25=frmmenu_en.bal
+File26=frmnotify.bal
+File27=frmorder_details.bal
+File28=frmorder_details_en.bal
+File29=frmorder_details_template.bal
+File30=frmpayment.bal
+File31=frmpicture.bal
+File32=frmproduct.bal
+File33=frmproduct_en.bal
+File34=frmproduct_template.bal
+File35=frmproduct_template_offer.bal
+File36=frmproducts.bal
+File37=frmregister.bal
+File38=frmreturn_template _en.bal
+File39=frmreturn_template.bal
+File40=frmreview.bal
+File41=frmsearch.bal
+File42=frmsetting.bal
+File43=frmsimple_product.bal
+File44=frmslideshow_panels.bal
+File45=frmsms.bal
+File46=frmsplash.bal
+File47=frmtemplage_category.bal
+File48=frmtemplage_category_en.bal
+File49=frmtemplate_car.bal
+File50=frmtemplate_car_en.bal
+File51=frmtemplate_comment.bal
+File52=frmtemplate_filter.bal
+File53=frmtemplate_order.bal
+File54=frmtemplate_order_en.bal
+File55=frmtemplate_product_en.bal
+File56=frmtemplate_product_fa.bal
+File57=frmtemplate_returns.bal
+File58=frmtemplate_returns_en.bal
+File59=frmteplate_slideshow.bal
+File60=frmupdate.bal
+File61=frmwaiting.bal
+File62=frmweb.bal
+File63=frmwelcome2app.bal
+File64=icomoon.ttf
+File65=images.png
+File66=line_edittext.png
+File67=loading.png
+File68=logo.jpg
+File69=noimage.png
+File70=notify.mp3
+File71=special_en.png
+File72=special_fa.png
+File73=tahoma.ttf
+File74=update.png
+NumberOfLibraries=47
+Library1=core
+Library2=stringutils
+Library3=json
+Library4=reflection
+Library5=network
+Library6=encryption
+Library7=byteconverter
+Library8=androidresources
+Library9=ahlocale
+Library10=resources
+Library11=viewsetting
+Library12=phone
+Library13=ahpreferenceactivity
+Library14=persiandate
+Library15=dialogs
+Library16=id
+Library17=webviewextras2
+Library18=sllvonscroll
+Library19=settings
+Library20=slidingpanels
+Library21=touchimageview
+Library22=richstring
+Library23=datetimepicker
+Library24=ime
+Library25=randomaccessfile
+Library26=threading
+Library27=checksignature
+Library28=ahviewpager
+Library29=javaobject
+Library30=labelextras
+Library31=googleprogressbar
+Library32=sharemyapp
+Library33=icosflip3dview
+Library34=animationplus
+Library35=statusbarcompat
+Library36=b4xencryption
+Library37=net
+Library38=ultimatelistview
+Library39=sql
+Library40=ariaglide
+Library41=roundimage
+Library42=okhttp
+Library43=okhttputils2
+Library44=icosslidingdrawer
+Library45=ahnavigationdrawer
+Library46=xmllayoutbuilder
+Library47=jhsbarcodes
+@EndOfDesignText@
+	#Region  Project Attributes
+		#ApplicationLabel: @string/app_title
+		#VersionCode: 2
+		#VersionName: 1.2.0
+		#SupportedOrientations: portrait
+		#CanInstallToExternalStorage: True
+		#BridgeLogger: True
+ 
+		#AdditionalRes: ../navdrawerres 
+		'#AdditionalRes: V:\Basic4android\SlidingMenu-master\library\res, com.jeremyfeinstein.slidingmenu.lib
+		
+		#AdditionalRes: ../../Clients/com.apps.demo/Android
+		
+	#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+Sub Process_Globals
+	Private timer1 As Timer
+	Public First As Boolean
+End Sub
+
+Sub Globals
+	Dim username,password As String
+	Private pb1 As ProgressBar
+	Private lbldetails As Label
+	Private lbltitle As Label
+	Private pnllogo As Panel
+	Private lblpb As Label
+	Private pnlprogress As Panel
+	Private OpenCart As OpenCart
+	Private imglogo As ImageView
+	Private pnlheader As Panel
+	Private pnlfooter As Panel
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+ 
+	Library.setLocalApp(Library.currLang)
+	
+	Library.CacheSystem.Initialize
+	Library.ListProductIDForCompare.Initialize
+	
+	Library.wishlist = ""
+	
+	If File.Exists(File.DirInternal,"noimage1.png") = False Then
+		File.Copy(File.DirAssets,"noimage.png",File.DirInternal,"noimage1.png")
+	End If
+	
+	FirstLogin
+
+	Library.currLang = Library.manager.GetString("lang")
+	Library.currCurrency = Library.manager.GetString("curr")
+	
+	Activity.LoadLayout("frmsplash")
+	
+	imglogo.Bitmap = Library.GetResourceBitmap("logo")
+	pnlfooter.Width = 100%x
+	
+	Library.LoadTheme
+	pnlheader.Color = Library.Theme_Header
+	pnlfooter.Color = Library.Theme_Footer
+	Activity.Color  = Library.Theme_Background
+	
+	lbltitle.Text = Library.GetStringResourse("app_title")
+	lbldetails.Text = Library.GetStringResourse("shop_details")
+	lblpb.Text = Library.GetStringResourse("loading")
+	
+	Library.ChangeStatusColor
+	
+	Library.setLocalApp(Library.currLang)
+	Library.wishlist = Library.GetStringResourse("bookmark")
+	Library.comparelist = Library.GetStringResourse("comparelist") & " ( 0 )"
+	Library.Coupons.Initialize
+	Library.Bookmarked.Initialize
+	
+	pnllogo.Visible = True
+		
+	username = Library.manager.GetString("username")
+	password = Library.manager.GetString("password")
+	
+	If Library.InternetState = True Then
+		timer1.Initialize("tmr1",1100)
+	Else
+		timer1.Initialize("tmr1",500)
+	End If
+	
+	If Library.InternetState = False Then
+		First = True
+		Activity.Finish
+		actErrorIntrenet.module = Activity
+		StartActivity(actErrorIntrenet)
+		Return
+	End If
+	
+	OpenCart.Initialize
+	
+	timer1.Enabled = True
+	
+	pb1.Progress = 0
+	
+	InstallServices
+	
+	'Library.ScaleCenterAnimation(pnllogo,0,0,3,3,1)
+	
+End Sub
+
+Sub login_receive(res As Map,cat As String)
+	
+	Dim checksum As OpenCart
+	checksum.Initialize
+	checksum.CheckSumOnline(Me,"GetChecksum_receive")
+	
+	If res = Null Then
+		Return
+	End If
+	
+	If res.IsInitialized = False Then
+		Return
+	End If
+	
+	If res.ContainsKey("error") Then
+		Return
+	Else
+		
+		Dim data As Map
+		data = res.Get("data")
+		
+		Dim need_to_login_site As String
+		need_to_login_site = Library.GetStringResourse("need_to_login_site").ToLowerCase
+		
+		If res.ContainsKey("data") = False Then
+			Library.loginDetails.Initialize
+			Library.loginDetails.Put("address_id","1")
+			Library.loginDetails.Put("login",True)
+			'Library.loginDetails.put("session",DateTime.Now)
+			Library.loginDetails.put("expire",DateTime.Now)
+				
+			If Library.GuestLogin.IsInitialized Then
+				Library.GuestLogin.Put("login",False)
+			End If
+			
+			Return
+			
+		End If
+		
+		If Library.loginDetails.IsInitialized = False Then Library.loginDetails.Initialize
+		
+		Try
+			Library.loginDetails = data
+			Library.loginDetails.Put("address_id",data.Get("address_id"))
+			Library.loginDetails.Put("login",True)
+			Library.loginDetails.put("session",data.Get("session"))
+			Library.loginDetails.put("expire",DateTime.Now)
+		Catch
+		
+		End Try
+		
+		Library.ChoosenAddress = 0
+		
+		If Library.GuestLogin.IsInitialized Then
+			Library.GuestLogin.Put("login",False)
+		End If
+		
+	End If
+	
+End Sub
+
+Sub tmr1_Tick
+	
+	timer1.Enabled = False
+	
+	If Library.InternetState = False And Library.CacheSystem.ExistType("product_main") = False Then
+		First = True
+		Activity.Finish
+		actErrorIntrenet.module = Activity
+		StartActivity(actErrorIntrenet)
+	
+	Else If Library.CacheSystem.ExistType("product_main") = True And Library.InternetState = False Then
+		
+		Library.token.Initialize
+		Library.token.Put("token_type","")
+		Library.token.Put("access_token","")
+		
+		If Library.Config.IsInitialized = False Then Library.Config.Initialize
+		Library.Config = Library.CacheSystem.GetCacheAsMap("config","config")
+		
+		GetChecksum_receive
+		
+	Else
+		DownloadConfig
+	
+	End If
+	
+End Sub
+
+Sub DownloadConfig
+	
+	Dim hu As HttpJob
+	hu.Initialize("config",Me)
+	hu.Download(Library.GetStringResourse("url") & "/app/config")
+	hu.GetRequest.SetHeader("Cache-Control","no-store, no-cache, must-revalidate, max-age=0")
+	
+End Sub
+
+Sub Activity_Resume
+	If IsPaused(updater) Then 
+		StartService(updater)
+	End If
+	Library.ChangeProgressColor(pb1)
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+	Activity.Finish
+End Sub
+
+Sub GetToken
+	OpenCart.GetToken(Me,"Token_Receive")
+End Sub
+
+Sub Token_Receive(data As Map,state As Object)
+	
+	Dim op1 As OpenCart
+	op1.Initialize
+	op1.Login(Me,"login_receive",username,password)
+	
+End Sub
+
+Sub GetChecksum_receive
+	
+	Library.NewProduct.Initialize
+	Library.NewProduct = Library.CacheSystem.GetCacheAsList("new","product_main")
+	
+	Library.SpecialProduct.Initialize
+	Library.SpecialProduct = Library.CacheSystem.GetCacheAsList("special","product_main")
+	
+	Library.FeatureProduct.Initialize
+	Library.FeatureProduct = Library.CacheSystem.GetCacheAsList("feature","product_main")
+	
+	Library.BestProduct.Initialize
+	Library.BestProduct = Library.CacheSystem.GetCacheAsList("best","product_main")
+	
+	Library.listManufacturers.Initialize
+	Library.listManufacturers = Library.CacheSystem.GetCacheAsList("manufacturers","manufacturers")
+	
+	Library.listBanners.Initialize
+	Library.listBanners = Library.CacheSystem.GetCacheAsList("banners","banners")
+	
+	If Library.listSlideshow = Null Then
+		Dim ls As List
+		ls.Initialize
+		Library.listSlideshow = ls	
+	End If
+	
+	Library.listSlideshow.Initialize
+	Library.imagesSlideshow.Initialize
+	Library.listSlideshow = Library.CacheSystem.GetCacheAsList("slideshow","slideshow")
+	
+	Library.listInformation.Initialize
+	Library.listInformation = Library.CacheSystem.GetCacheAsList("informations","information")
+	
+	If Library.CacheSystem.ExistType("language") = False Then
+		GetProductClass
+	Else
+		pnlprogress.SetVisibleAnimated(500,False)
+		StartActivity(actMenu)
+	End If
+	
+End Sub
+
+Sub GetProductClass
+	
+	Dim op1 As OpenCart
+	op1.Initialize
+	op1.GetProductClass(Me,"productclass_receive")
+	
+End Sub
+
+Sub productclass_receive(res As Map,cat As String)
+	
+	Try
+		If res <> Null Then
+		
+			Dim data As Map
+			data = res.Get("data")
+			
+			Library.CacheSystem.AddList2Cache("currencies",data.Get("currencies"),"currencies")
+			Library.CacheSystem.AddMap2Cache("product_classes",res,"product_classes")
+			
+		End If
+	Catch
+	End Try
+	
+	pnlprogress.SetVisibleAnimated(500,False)
+	
+	GetLanguages
+	
+End Sub
+
+Sub GetLanguages
+	
+	Dim op1 As OpenCart
+	op1.Initialize
+	op1.GetLanguages(Me,"languages_receive")
+	
+End Sub
+
+Sub languages_receive(res As Map,cat As String)
+	
+	Library.CacheSystem.AddMap2Cache("language",res,"language")
+	
+	StartActivity(actMenu)
+	
+End Sub
+
+Sub FirstLogin
+
+	If Library.manager.GetBoolean("firsts") = False Then
+		
+		Library.FirstRun = True
+
+		If Library.GetStringResourse("default_language") = "fa" Then
+			Library.manager.SetString("lang","فارسی")
+			
+			Dim cur As String
+			cur = Library.GetStringResourse("default_currency")
+			
+			If cur.Length = 0 Then cur = "RLS"
+			
+			Library.manager.SetString("curr",cur)
+			
+			
+		Else if Library.GetStringResourse("default_language") = "en" Then
+			Library.manager.SetString("lang","English")
+			Library.manager.SetString("curr","USD")
+		End If
+		
+		Library.manager.SetBoolean("cache",False)
+		Library.manager.SetBoolean("firsts",True)
+		Library.manager.SetBoolean("push",True)
+		
+	End If
+	
+End Sub
+
+Sub JobDone(Job As HttpJob)
+	
+	If Job.Success Then
+		
+		If Job.JobName = "config" Then
+			
+			Dim js As JSONParser
+			js.Initialize(Job.GetString2("UTF8"))
+			
+			Dim d1 As Map
+			d1 = js.NextObject
+			
+			Dim checksum As Map
+			checksum.Initialize
+			checksum.Put("banner",Library.List2Json(d1.Get("banner")))
+			checksum.Put("menu",Library.List2Json(d1.Get("menus")))
+			checksum.Put("feature_id",d1.Get("feature_module"))
+			
+			Dim ch As String
+			ch = Library.Map2Json(checksum)
+			
+			If File.Exists(File.DirInternal,"checksum_modules") = False Then File.WriteString(File.DirInternal,"checksum_modules",ch)
+			
+			If File.ReadString(File.DirInternal,"checksum_modules") <> ch Then
+				File.WriteString(File.DirInternal,"checksum_modules",ch)
+				Library.CacheSystem.ClearCache2("product_main")
+				Library.CacheSystem.ClearCache2("topic_products")
+				Library.CacheSystem.ClearCache2("product_of_category")
+				Library.CacheSystem.ClearCache2("slideshow")
+				Library.CacheSystem.ClearCache2("banners")
+				
+			End If
+			
+			If d1.Get("shop_state") = False Then
+				Library.ShopState = False
+				Library.manager.SetBoolean("disactive_shop",True)
+				Activity.Finish
+				StartActivity(actDisableShop)
+				Return
+			End If
+				
+			If d1.ContainsKey("show_gurest_register") = False Then d1.Put("show_gurest_register",True)
+			
+			Library.Config = d1
+			Library.CacheSystem.AddMap2Cache("config",d1,"config")
+			
+			GetToken
+			
+		Else
+			Library.manager.SetBoolean("register",True)
+			
+		End If
+	
+	Else
+		If Job.JobName = "config" Then
+			Dim temp As Map
+			temp.Initialize
+			temp.Put("shop_state",True)
+			temp.Put("force_update",True)
+			temp.Put("title",Library.GetStringResourse("app_title"))
+			temp.Put("color",Library.ar.GetApplicationString("theme_header"))
+			temp.Put("version",Library.Sign.getPackageVersionCode)
+			temp.Put("banner","")
+			temp.Put("menus","")
+
+			Library.Config = temp
+			Library.CacheSystem.AddMap2Cache("config",d1,"config")
+			
+			GetToken
+			
+		End If
+	End If
+	
+	Job.Release
+	
+End Sub
+
+Sub InstallServices
+	
+	#region Install shortcut
+	If Library.manager.GetBoolean("shortcutinstall") = False Then
+		
+		Dim shortcutIntent As Intent
+		shortcutIntent.Initialize("", "")
+		shortcutIntent.SetComponent(Application.PackageName & "/.main") 
+
+		Dim In As Intent
+		In.Initialize("", "")
+		In.PutExtra("android.intent.extra.shortcut.INTENT", shortcutIntent)
+		In.PutExtra("android.intent.extra.shortcut.NAME", lbltitle.Text)
+		In.PutExtra("android.intent.extra.shortcut.ICON", Library.GetResourceBitmap("shortcut_icon"))
+		In.Action = "com.android.launcher.action.INSTALL_SHORTCUT"
+
+		Dim p As Phone
+		p.SendBroadcastIntent(In)
+		DoEvents
+		
+		Library.manager.SetBoolean("shortcutinstall", True)
+		
+	End If
+	#end region
+  
+End Sub
